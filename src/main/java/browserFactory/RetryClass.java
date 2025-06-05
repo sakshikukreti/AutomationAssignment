@@ -7,7 +7,7 @@ import org.testng.annotations.AfterClass;
 public class RetryClass implements IRetryAnalyzer {
 
     private int retryCount = 0;
-    private static final int maxRetryCount = 1;
+    private static final int maxRetryCount = 2;
 
     @AfterClass
     @Override

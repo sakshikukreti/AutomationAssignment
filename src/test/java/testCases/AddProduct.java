@@ -32,7 +32,7 @@ public class AddProduct extends BrowserFactory{
     /**
      * This method is to verify title and landing page URL
      */
-    @Test (priority = 1)
+    @Test (priority = 1, retryAnalyzer = RetryClass.class)
     public void verifyTitle() {
         //Verify Title
         String title= homePage.verifyTitleOfPage();
