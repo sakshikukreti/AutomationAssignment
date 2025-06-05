@@ -37,7 +37,7 @@
 
 **Installation**
 Clone the repository:
-git clone https://github.com/your-org/selenium-framework.git
+git clone https://github.com/sakshikukreti/AutomationAssignment.git
 cd selenium-framework
 
 **Install dependencies:**
