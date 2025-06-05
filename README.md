@@ -1,3 +1,5 @@
+This automation project automates the website https://petstore.com/search and it includes a comprehensive suite of automated UI tests using Selenium WebDriver.
+
 **Project Structure**
 ├── src
 │   ├── main
@@ -57,7 +59,7 @@ mvn clean test
 mvn test -DsuiteXmlFile=testng.xml
 
 **TestCoverage Summary**
-This project includes a comprehensive suite of automated UI tests using Selenium WebDriver. The test cases are designed to ensure business workflow of adding item to cart and compute the price.
+The test cases are designed to ensure business workflow of adding item to cart and compute the price.
 1. verifyTitle() -: This testcase verify the title and landing URL of website
 2. verifyAddToCartWorkflow(String productName, int quantity) -:
    - This test case search a product and iterate all the pages to assert productName in each product listed. (Note: This test case result status is failed because all the productName description does not contain the productName)
@@ -70,7 +72,8 @@ This project includes a comprehensive suite of automated UI tests using Selenium
 /target/surefire-reports/emailable-report.html
 
 **Configuration**
-Set base URL, and other parameters in config.properties:
+Set base URL, and other parameters in config.properties
+URL: https://petstore.com/search
 
 **Design Pattern**
 This framework follows the Page Object Model (POM), which improves readability, maintainability, and reusability of test scripts
