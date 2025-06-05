@@ -31,7 +31,7 @@ This automation project automates the website https://petstore.com/search and it
 └── README.md                             # Project documentation
 
 **Prerequisites**
-* Java 11+
+* Java 11 and plus
 * Maven
 * Chrome/Firefox browser
 * ChromeDriver/GeckoDriver
