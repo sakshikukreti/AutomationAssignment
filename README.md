@@ -38,7 +38,6 @@
 **Installation**
 Clone the repository:
 git clone https://github.com/sakshikukreti/AutomationAssignment.git
-cd selenium-framework
 
 **Install dependencies:**
 mvn clean install or from the install option present in Maven tab of IntelliJ
