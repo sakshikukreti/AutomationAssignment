@@ -1,0 +1,5 @@
+<resources>
+    <!-- Search Items -->
+    <string name="current_url">https://petstore.com/search</string>
+    <string name="title">Search – Petstore.com</string>
+</resources>
